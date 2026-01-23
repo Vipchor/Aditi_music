@@ -42,7 +42,7 @@ GIT_TOKEN = getenv(
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Vip_Jani_OP")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Fgru4laNvJpkMGI1")
 
-API_URL = getenv("API_URL", 'https://nexgenbots.xyz') #youtube song url
+API_URL = getenv("API_URL", 'https://api2.nexgenbots.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
 API_KEY = getenv("API_KEY", "30DxNexGenBotscedc05") # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
 
