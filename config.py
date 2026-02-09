@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Vip_Jani_OP")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Fgru4laNvJpkMGI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mental_about_2")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/KRISHNA_MUSIC_NO_ADS")
 
 API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
