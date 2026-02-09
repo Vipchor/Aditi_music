@@ -1,0 +1,31 @@
+from pyrogram import filters
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from JaniMusic import app
+
+WELCOME_IMAGE = "https://files.catbox.moe/f7i8t9.jpg"
+
+@app.on_message(filters.new_chat_members & filters.group)
+async def welcome(client, message):
+    user = message.new_chat_members[0]
+
+    caption = (
+        f"✨ Welcome {user.mention} ✨\n\n"
+        f"🎶 Music Lovers Group me aapka swagat hai\n"
+        f"▶️ Song play karne ke liye: /play song_name\n\n"
+        f"💖 Enjoy Music"
+    )
+
+    buttons = InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton("🎧 Play Music", url="https://t.me/shree_update"),
+                InlineKeyboardButton("💬 Support", url="https://t.me/Esprosupport"),
+            ]
+        ]
+    )
+
+    await message.reply_photo(
+        photo=WELCOME_IMAGE,
+        caption=caption,
+        reply_markup=buttons
+    )
