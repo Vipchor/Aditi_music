@@ -42,9 +42,8 @@ GIT_TOKEN = getenv(
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+SIEB8F3UV5BkZDc1")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/vibematche")
 
-API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
-VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
-API_KEY = getenv("API_KEY", "30DxNexGenBotscedc05")
+API_KEY = getenv("API_KEY", "StrangerApia3075f5")
+API_BASE_URL = getenv("API_BASE_URL", "http://riyabots.site")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
