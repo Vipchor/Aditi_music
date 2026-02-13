@@ -7,7 +7,7 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from JaniMusic.formatters import time_to_seconds
 import aiohttp
-from JaniMusic import LOGGER
+from JaniMusic.import LOGGER
 
 try:
     from py_yt import VideosSearch
@@ -408,3 +408,4 @@ class YouTubeAPI:
                 return None, False
         except Exception:
             return None, False
+
