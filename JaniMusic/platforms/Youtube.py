@@ -6,7 +6,7 @@ from typing import Union
 import yt_dlp
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
-from JaniMusic.import time_to_seconds
+from JaniMusic. import time_to_seconds
 import aiohttp
 from JaniMusic import LOGGER
 
@@ -409,3 +409,4 @@ class YouTubeAPI:
                 return None, False
         except Exception:
             return None, False
+
