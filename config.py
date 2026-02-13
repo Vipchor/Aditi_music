@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Vip_Jani_OP")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Fgru4laNvJpkMGI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+SIEB8F3UV5BkZDc1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/vibematche")
 
 API_URL = getenv("API_URL", 'https://api.nexgenbots.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
@@ -82,10 +82,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/x38iei.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/plqvvh.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/x38iei.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/plqvvh.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
